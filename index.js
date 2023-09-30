@@ -4,9 +4,10 @@ const app = express();
 const bcrypt = require("bcrypt");
 const cors = require("cors")
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: 'http://zeitgeistrpr.com',
     optionsSuccessStatus: 200,
 };
+const PORT = process.env.PORT
 app.use(cors(corsOptions));
 
 app.use(express.json());
@@ -95,6 +96,6 @@ app.put("/data", async (req, res) => {
 })
 
 app.use(authRoutes)
-app.listen(5000, () => {
-    console.log("Running on 5000");
+app.listen(PORT, () => {
+    console.log("Running on "+ PORT);
 })
