@@ -7,7 +7,6 @@ const corsOptions = {
     origin: 'https://www.zeitgeistrpr.com',
     optionsSuccessStatus: 200,
 };
-const PORT = process.env.PORT
 app.use(cors(corsOptions));
 
 app.use(express.json());
@@ -96,6 +95,6 @@ app.put("/data", async (req, res) => {
 })
 
 app.use(authRoutes)
-app.listen(PORT, () => {
-    console.log("Running on "+ PORT);
+app.listen(5000, () => {
+    console.log("Running on "+ 5000);
 })
