@@ -4,7 +4,7 @@ const app = express();
 const bcrypt = require("bcrypt");
 const cors = require("cors")
 const corsOptions = {
-    origin: 'http://zeitgeistrpr.com',
+    origin: 'https://www.zeitgeistrpr.com',
     optionsSuccessStatus: 200,
 };
 const PORT = process.env.PORT
