@@ -49,12 +49,18 @@ app.post("/events", async (req, res) => {
 })
 
 app.get("/user", async (req, res) => {
-    const q = await getDoc(doc(db, "users", req.query.email));
-    if (q.exists()) {
-        res.status(200).json(q.data());
+    try{
+
+        const q = await getDoc(doc(db, "users", req.query.email));
+        if (q.exists()) {
+            res.status(200).json(q.data());
+        }
+        else {
+            res.status(403).json({email: req.query.email});
+        }
     }
-    else {
-        res.status(403).json({ error: "please complete your profile" });
+    catch{
+        res.status(500).json("Internal Server Error")
     }
 })
 app.get("/leaderboard", async (req, res) => {

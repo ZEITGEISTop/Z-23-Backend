@@ -20,18 +20,18 @@ router.post("/login", async(req,res)=>{
   .then((userCredential) => {
     const user = userCredential.user;
     if(user.emailVerified){
-      res.status(200).json(user);
+      res.status(200).json({...user, emailVerified: true});
     }
     else{
       sendEmailVerification(user);
       //an email is sent to your email please verify first
-      res.status(403).send("Email not verified");
+      res.status(401).send("Email not verified");
     }
 
   })
   .catch((error) => {
     if (error.code === "auth/invalid-login-credentials") {
-      res.status(401).json("Invalid email or password" );
+      res.status(403).json("Invalid email or password" );
     } else {
       console.error(error);
       res.status(500).json("Internal server error" );
