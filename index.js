@@ -3,11 +3,17 @@ const db = require('./firebase');
 const app = express();
 const bcrypt = require("bcrypt");
 const cors = require("cors")
-const corsOptions = {
-    origin: 'https://zeitgeistrpr.com',
-    optionsSuccessStatus: 200,
-};
-app.use(cors(corsOptions));
+const allowedOrigins = ["https://zeitgeistrpr.com"]
+
+app.use(cors({origin: function (origin, callback) {
+      if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
+        // If the origin is in the allowed list or it's not provided (e.g., for local requests)
+        callback(null, true);
+      } else {
+        // If the origin is not allowed
+        callback(new Error('Not allowed by CORS'));
+      }
+    },}));
 
 app.use(express.json());
 const { collection, getDoc, setDoc, getDocs, updateDoc, doc } = require("firebase/firestore");
@@ -83,13 +89,14 @@ app.put("/data", async (req, res) => {
         const q = await doc(db, "users", req.body.email);
         if ("invites" in req.body) {
             await updateDoc(q, {
-                invites: req.body.invites,
-                points: req.body.points
+              invites: req.body.invites,
+              points: q.data().points + req.body.points,
+              history: q.data().history.push(req.body.points)
             });
         }
         else {
             await updateDoc(q, {
-                points: req.body.points
+                points: q.data().points + req.body.points
             });
         }
         const l = await getDoc(doc(db, "users", req.body.email));
