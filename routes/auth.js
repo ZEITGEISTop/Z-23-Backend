@@ -1,6 +1,7 @@
 const router=require("express").Router();
 const { getAuth, createUserWithEmailAndPassword,signInWithEmailAndPassword, sendEmailVerification } = require("firebase/auth")
-const auth = getAuth();
+const firebase = require("../firebase")
+const auth = getAuth(firebase.app);
 
 router.post("/register", async(req,res) => {
     createUserWithEmailAndPassword(auth, req.body.email, req.body.password)

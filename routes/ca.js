@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const db = require("./firebase");
+const firebase = require("../firebase");
 const bcrypt = require("bcrypt");
 const {
   collection,
@@ -24,14 +24,14 @@ router.post("/data", async (req, res) => {
         .substr(0, 8)
         .toUpperCase()
     );
-    await setDoc(doc(db, "users", req.body.email), {
+    await setDoc(doc(firebase.db, "users", req.body.email), {
       ...user,
       referral: referral
         .replace(/[^a-zA-Z0-9]/g, "")
         .substr(0, 8)
         .toUpperCase(),
     });
-    const p = await getDoc(doc(db, "users", req.body.email));
+    const p = await getDoc(doc(firebase.db, "users", req.body.email));
     res.status(200).json(p.data());
   } catch (e) {
     res.status(500).json(e);
@@ -41,7 +41,7 @@ router.post("/data", async (req, res) => {
 //Get a CA's data
 router.get("/user", async (req, res) => {
   try {
-    const q = await getDoc(doc(db, "users", req.query.email));
+    const q = await getDoc(doc(firebase.db, "users", req.query.email));
     if (q.exists()) {
       res.status(200).json(q.data());
     } else {
@@ -54,7 +54,7 @@ router.get("/user", async (req, res) => {
 
 //Get all CA's data
 router.get("/leaderboard", async (req, res) => {
-  const userdata = await getDocs(collection(db, "users"));
+  const userdata = await getDocs(collection(firebase.db, "users"));
   const arr = [];
   userdata.forEach((doc) => {
     if (!doc.data().isAdmin) {
@@ -73,7 +73,7 @@ router.get("/leaderboard", async (req, res) => {
 //Update a CA's data
 router.put("/data", async (req, res) => {
   try {
-    const q = await doc(db, "users", req.body.email);
+    const q = await doc(firebase.db, "users", req.body.email);
     if ("invites" in req.body) {
       await updateDoc(q, {
         invites: req.body.invites,
@@ -85,7 +85,7 @@ router.put("/data", async (req, res) => {
         points: q.data().points + req.body.points,
       });
     }
-    const l = await getDoc(doc(db, "users", req.body.email));
+    const l = await getDoc(doc(firebase.db, "users", req.body.email));
     res.status(200).json(l.data());
   } catch (e) {
     res.status(500).json(e);

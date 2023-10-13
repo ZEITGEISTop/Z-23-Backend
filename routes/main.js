@@ -1,4 +1,5 @@
 const router = require("express").Router();
+const firebase = require("../firebase")
 const {
   collection,
   getDoc,
@@ -11,8 +12,8 @@ const {
 router.post("/events", async (req, res) => {
   try {
     const event = req.body;
-    await setDoc(doc(db, "events", req.body.name), event);
-    const p = await getDoc(doc(db, "events", req.body.name));
+    await setDoc(doc(firebase.db, "events", req.body.name), event);
+    const p = await getDoc(doc(firebase.db, "events", req.body.name));
     res.status(200).json(p.data());
   } catch (e) {
     res.status(500).json(e);
@@ -22,7 +23,7 @@ router.post("/events", async (req, res) => {
 //Get an event
 router.get("/events", async (req, res) => {
   try {
-    const q = await getDoc(doc(db, "events", req.query.name));
+    const q = await getDoc(doc(firebase.db, "events", req.query.name));
     if (q.exists()) {
       res.status(200).json(q.data());
     } else {
@@ -35,12 +36,17 @@ router.get("/events", async (req, res) => {
 
 //Get all events
 router.get("/allEvents", async (req, res) => {
-  const eventsdata = await getDocs(collection(db, "events"));
-  const arr = [];
-  eventsdata.forEach((doc) => {
-    arr.push(doc.data());
-  });
-  res.status(200).json(arr);
+  try {
+    const eventsdata = await getDocs(collection(firebase.db, "events"));
+    const arr = [];
+    eventsdata.forEach((doc) => {
+      arr.push(doc.data());
+    });
+    res.status(200).json(arr);
+  } catch (err) {
+    console.log(err);
+    res.status(500).json(err);
+  }
 });
 
 module.exports = router;
