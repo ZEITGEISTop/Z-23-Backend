@@ -1,10 +1,8 @@
 const express = require('express');
-const db = require('./firebase');
 const app = express();
-const bcrypt = require("bcrypt");
+
 const cors = require("cors")
 const allowedOrigins = ["https://zeitgeistrpr.com"]
-const { collection, getDoc, setDoc, getDocs, updateDoc, doc } = require("firebase/firestore");
 const authRoutes = require("./routes/auth")
 const caRoutes = require("./routes/ca")
 const mainRoutes = require("./routes/main")

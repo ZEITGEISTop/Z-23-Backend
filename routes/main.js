@@ -1,4 +1,11 @@
 const router = require("express").Router();
+const {
+  collection,
+  getDoc,
+  setDoc,
+  getDocs,
+  doc,
+} = require("firebase/firestore");
 
 //Post an event
 router.post("/events", async (req, res) => {

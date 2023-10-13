@@ -1,4 +1,14 @@
 const router = require("express").Router();
+const db = require("./firebase");
+const bcrypt = require("bcrypt");
+const {
+  collection,
+  getDoc,
+  setDoc,
+  getDocs,
+  updateDoc,
+  doc,
+} = require("firebase/firestore");
 
 //Post a CA's data
 router.post("/data", async (req, res) => {
