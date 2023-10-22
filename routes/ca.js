@@ -11,7 +11,7 @@ const {
 } = require("firebase/firestore");
 
 //Post a CA's data
-router.post("/data", async (req, res) => {
+router.post("/ca-data", async (req, res) => {
   try {
     const user = req.body;
     console.log(user);
@@ -39,7 +39,7 @@ router.post("/data", async (req, res) => {
 });
 
 //Get a CA's data
-router.get("/user", async (req, res) => {
+router.get("/ca-user", async (req, res) => {
   try {
     const q = await getDoc(doc(firebase.db, "users", req.query.email));
     if (q.exists()) {
@@ -71,18 +71,19 @@ router.get("/leaderboard", async (req, res) => {
 });
 
 //Update a CA's data
-router.put("/data", async (req, res) => {
+router.put("/ca-data", async (req, res) => {
   try {
-    const q = await doc(firebase.db, "users", req.body.email);
+    const q = await getDoc(doc(firebase.db, "users", req.body.email));
     if ("invites" in req.body) {
-      await updateDoc(q, {
-        invites: req.body.invites,
+      await updateDoc(doc(firebase.db, "users", req.body.email), {
+        invites: q.data().invites + req.body.invites,
         points: q.data().points + req.body.points,
         history: q.data().history.push(req.body.points),
       });
     } else {
-      await updateDoc(q, {
+      await updateDoc(doc(firebase.db, "users", req.body.email), {
         points: q.data().points + req.body.points,
+        history: q.data().history.push(req.body.points),
       });
     }
     const l = await getDoc(doc(firebase.db, "users", req.body.email));

@@ -1,5 +1,6 @@
 const { initializeApp } =require ("firebase/app");
 const { getFirestore } = require("firebase/firestore");
+
 const firebaseConfig = {
   apiKey: "AIzaSyAgMyVDGzIJKaDjQ591MAU2qikHDoFAEZM",
   authDomain: "zeitgeist-23.firebaseapp.com",

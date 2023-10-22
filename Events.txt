@@ -1,0 +1,709 @@
+[
+  {
+  "name": "Ashke",
+  "fee": 99,
+  "day": 3,
+  "category": "Cultural",
+  "description": "Ashke is a bhangra group dance competition organized by D’Cypher the dance club of IIT Ropar in our most anticipated cultural fest ‘Zeitgeist’",
+  "heading": "Bhangara Group Dance",
+  "isOnline": false,
+  "isTeam": true,
+  "worth": "30k",
+  "poc": {
+    "name" : "Shivam verma",
+    "number": 9814432007
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FAshke.jpg?alt=media&token=7423fb19-96ee-4585-b7cc-a3d9dd2e4696",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FAshke%20Zeitgeist%202023.pdf?alt=media&token=716d0cd4-2d57-439f-9e28-5a2142390974",
+  "register": "https://unstop.com/o/CxzXYve?lb=lBZyqh8"
+},
+{
+  "name": "Guftgu",
+  "fee": "Free",
+  "day": 2,
+  "category": "Literary",
+  "description": "It is a story telling competition.Participants have to perform their story on the stage.",
+  "heading": "Story telling",
+  "isOnline": false,
+  "isTeam": false,
+  "worth": "3k",
+  "poc": {
+    "name" : "Raj Shrivastav",
+    "number": 8683905746
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FGuftgu.jpg?alt=media&token=d1a80fe5-59f0-4216-a4e5-c106895b2b1f",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FGUFTGU%20rulebook%20zeigeist%202023.pdf?alt=media&token=b0e98e2a-c7a7-46bd-af8c-51123523fa04",
+ "register": "https://unstop.com/o/q3THw5V?lb=lBZyqh8"
+},
+{
+  "name": "Bidvertise",
+  "fee": "Free",
+  "day": 2,
+  "category": "Literary",
+  "description": "Your persuasiveness will make or break you in this tournament. You must first place an effective bid on the stuff you want, and then use your advertisement pitch to persuade the panel to accept the item. The winner is evident if they secure the most profit.",
+  "heading": "Bid, Pitch, and Win!",
+  "isOnline": false,
+  "isTeam": true,
+  "worth": "6k",
+  "poc": {
+    "name" : "Kashish yadav",
+    "number": 7737826754
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FBidvertise.jpg?alt=media&token=de800d6e-3c2a-4a2e-ad88-91cb6f273bd5",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FBidvertise%20Rulebook%20Zeitgeist_23.pdf?alt=media&token=a0dd72ec-3a84-4d84-9c8c-171ae4c1601b",
+ "register": "https://unstop.com/o/KbLxU7M?lb=lBZyqh8"
+},
+{
+  "name": "Shipwreck",
+  "fee": "Free",
+  "day": 1,
+  "category": "Literary",
+  "description": "The participants are assumed to be on a sinking ship for which the moderator is the captain. Each of them is assigned the role of a person or object. By providing arguments to support themselves and denigrating others, they will have to convince the captain as to why they deserve to be saved from the ship. Additionally, the moderator might ask for an anti- shipwreck wherein they have to provide reasons as to why they need to be killed.",
+  "heading": "Sinking Ship Roleplay",
+  "isOnline": false,
+  "isTeam": false,
+  "worth": "3k",
+  "poc": {
+    "name" : "Shivam Bhagat",
+    "number":  7087662592
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FShipwreck.jpg?alt=media&token=99b8e8d6-bf3d-4f3c-8bb7-6b8e59cb13b2",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FShipwreck%20Rulebook%20Zeitgeist_23.pdf?alt=media&token=34306dfe-5f19-4532-a0d5-988390f393cc",
+ "register": "https://unstop.com/o/BSJhDU6?lb=lBZyqh8"
+},
+{
+  "name": "Lashkara",
+  "fee": 99,
+  "day": 2,
+  "category": "Fashion",
+  "description": "Lashkara requests that you ignite the runway. It's time to grace us with your presence while wearing your most elegant boots, classiest gloves, and perhaps a stylish cap to make our heads spin. Wrap yourself in the Zeitgeist's winds. Dress to the nines and perform at the top of your game on stage.",
+  "heading": "Group Fashion Event",
+  "isOnline": false,
+  "isTeam": true,
+  "worth": "70k",
+  "poc": {
+    "name" : "Vaibhav Mehta",
+    "number":  9115142415
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FLASHKARA.jpg?alt=media&token=812edf38-5340-4ed6-8b7f-e04b680fd81d",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FLashkara%20Rulebook%20Zeitgeist%202023_20231004_222002_0000.pdf?alt=media&token=55a273d9-eedc-46f5-9ddc-9516eeface88",
+ "register": "https://unstop.com/p/lashkara-zeitgeist-indian-institute-of-technology-iit-ropar-799302"
+},
+{
+  "name": "Mr. & Ms. Zeitgeist",
+  "fee": 99,
+  "day": 3,
+  "category": "Fashion",
+  "description": "It is a competition that provides a unique platform for a designer to present their innovative, stylish, and trendsetting pieces to an audience, allowing them to express their artistic identity and fashion expertise. ",
+  "heading": "Solo Fashion Event",
+  "isOnline": false,
+  "isTeam": false,
+  "worth": "40k",
+  "poc": {
+    "name" : "Vedant Gupta",
+    "number":  9634927194
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FLashkara%20Poster.jpg?alt=media&token=cd6f68fb-8981-41a9-9a6c-f402e6c74d73",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FMr%20_%20Ms%20Zeitgeist%20Rulebook%20Zeitgeist%202023.pdf?alt=media&token=b90732b5-96a8-457c-96ee-343d26aa2eeb",
+ "register": "https://unstop.com/o/KGb7Ya4?lb=lBZyqh8"
+},
+{
+  "name": "Mosaic Marvellous",
+  "fee": 50,
+  "day": 3,
+  "category": "Cultural",
+  "description": "This unique event celebrates the beauty of mosaic art while adding a twist of utilizing newspaper as the medium. ",
+  "heading": "Mosaic Art",
+  "isOnline": false,
+  "isTeam": false,
+  "worth": "3.5k",
+  "poc": {
+    "name" : "Smriti",
+    "number":  9118092390
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FMosaic%20Marvellous.jpg?alt=media&token=da85444c-743f-4a1e-9161-e7d072c851e5",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2Fmosaic%20marvellous.pdf?alt=media&token=2e96f8e0-f618-4315-b956-d5b65ad04a57",
+ "register": "https://unstop.com/o/jNV9qdS?lb=lBZyqh8"
+},
+{
+  "name": "Noteworthy",
+  "fee": 49,
+  "day": 2,
+  "category": "Cultural",
+  "description": "‘Noteworthy’ is a solo/duet singing competition featuring one ormaximumtwo performers, whomay be performing completely alone or supported by an accompanying instrument.",
+  "heading": "Solo/Duet Singing",
+  "isOnline": false,
+  "isTeam": true,
+  "worth": "10k",
+  "poc": {
+    "name" : "Sailee Dalal",
+    "number":  9021468023
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FNotes%20of%20Nostalgia.jpg?alt=media&token=ec9a8ece-1c08-48a0-97c7-703922564b74",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FNoteworthy%20Zeitgeist%202023.pdf?alt=media&token=406d4a1a-76e6-4440-8611-833f756a5360",
+ "register": "https://unstop.com/events/noteworthy-zeitgeist-indian-institute-of-technology-iit-ropar-798026"
+},
+{
+  "name": "Pluck it up",
+  "fee": 49,
+  "day": 1,
+  "category": "Cultural",
+  "description": "Pluck It Up is an Instrumental Music Competition that involves justinstruments—nosinging. ",
+  "heading": "Solo/Duet Instrumental Event",
+  "isOnline": false,
+  "isTeam": true,
+  "worth": "10k",
+  "poc": {
+    "name" : "Madhav",
+    "number":  8570089775
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FPluck%20it%20up.jpg?alt=media&token=7d030020-8655-4f13-95f7-f4fd0075b5e5",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FPluck%20It%20Up%20Zeitgeist%202023.pdf?alt=media&token=efe031cc-fe94-4879-9cc3-2fed492c6d5d",
+ "register": "https://unstop.com/events/pluck-it-up-zeitgeist-indian-institute-of-technology-iit-ropar-798030"
+},
+{
+  "name": "MonoAct",
+  "fee": 100,
+  "day": 0,
+  "category": "Cultural",
+  "description": "An online competition where artists perform solo on any script of their choosing. ",
+  "heading": "Solo Dramatics",
+  "isOnline": true,
+  "isTeam": false,
+  "worth": "12k",
+  "poc": {
+    "name" : "Shaubhik Dutta",
+    "number":  8584826196
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FMonoacting.jpg?alt=media&token=0b76f3cf-fc97-46bb-9475-590f6af26337",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FMonoact%20Zeitgeist%202023.pdf?alt=media&token=5ce2f3ad-d6a1-4b5b-a1d1-b23a7425d9f5",
+ "register": "https://unstop.com/o/oX5ePSu?lb=lBZyqh8"
+},
+{
+  "name": "Persuade",
+  "fee": 100,
+  "day": 2,
+  "category": "Literary",
+  "description": "In this exciting event, participants will showcase their persuasive prowess and charisma as they compete to prove their utmost significance among their opponents. ",
+  "heading": "A Battle of Charisma",
+  "isOnline": false,
+  "isTeam": false,
+  "worth": "15k",
+  "poc": {
+    "name" : "Ishaan Sharma",
+    "number":  8368129851
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FPersudae.jpg?alt=media&token=2ee55c29-54ef-49e5-bfde-3a825a5bb7c2",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FPersuade.pdf?alt=media&token=510437de-bffb-4bbd-bcf8-7201f5369911",
+ "register": "https://unstop.com/events/persuade-zeitgeist-indian-institute-of-technology-iit-ropar-798045"
+},
+{
+  "name": "Xuberance",
+  "fee": 100,
+  "day": 3,
+  "category": "Cultural",
+  "description": "In Xuberance, you'll have the opportunity to choreograph a mesmerizing routine that reflects your team's unique style and creativity. Whether you're into contemporary, hip-hop,folk, classical, or any other dance style,we welcome all dance forms to come together and compete in this exciting event."
+  "heading": "Group Dance",
+  "isOnline": false,
+  "isTeam": True,
+  "worth": "35k",
+  "poc": {
+    "name" : "Tilak sanghvi",
+    "number":  8762572063
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FXuberance.jpg?alt=media&token=04156f14-09a1-4e8c-8ea7-41d6e22fcafa",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FXuberance%20Zeitgeist%202023.pdf?alt=media&token=f86f16b3-503b-409e-90b8-2cb149b2f66f",
+ "register": "https://unstop.com/o/GzO9KN3?lb=lBZyqh8"
+},
+{
+  "name": "Revista",
+  "fee": 50,
+  "day": 0,
+  "category": "Cultural",
+  "description": "Revista provides you an opportunity to showcase your creative skills.Showcase your creativity and artistry by transforming the original portrait shots into a stunning magazine cover. Combine different styles, colors, and textures to create a one-of-a-kind design.Participate in this event and create an attractive and eye catching design, with the perfect balance of colors and elements and make your design standout.",
+  "heading": "Cover art challenge",
+  "isOnline": true,
+  "isTeam": false,
+  "worth": "5k",
+  "poc": {
+    "name" : "Swapnil Pandey",
+    "number":  6307099577
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FRevista.jpg?alt=media&token=1a0e0ecb-1c78-414d-9541-504322ba81e5",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FRevista.pdf?alt=media&token=f15c466f-8fc2-40d3-b812-aa89bb4041cf",
+ "register": "https://unstop.com/events/revista-zeitgeist-indian-institute-of-technology-iit-ropar-798013"
+},
+{
+  "name": "FotoPedia",
+  "fee": 50,
+  "day": 0,
+  "category": "Cultural",
+  "description": "Are you ready to showcase your skills and compete with the best of the best? Participate in the Fotopedia to challenge yourself and test your skills as a photographer.We’re looking for creative and unique photographs that showcase the beauty of the world and let your imagination go wild. Take part in our photography competition, share your best shots, and mesmerize us with your artistry!!",
+  "heading" : "Photography Competition",
+  "isOnline": true,	
+  "isTeam": false,
+  "worth": "5k",
+  "poc": {
+    "name" : "Manas Deorah",
+    "number":  9369338991
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FFOTO%20PEDIA.jpg?alt=media&token=5588c59b-0813-406a-a233-75bdebc1b079",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FFotopedia.pdf?alt=media&token=979b3adf-32f5-4d27-8746-8b823120a2bc",
+ "register": "https://unstop.com/events/fotopedia-indian-institute-of-technology-iit-ropar-797929"
+},
+{
+  "name": "Timeline",
+  "fee": 50,
+  "day": 0,
+  "category": "Cultural",
+  "description": "Whether you're a beginner or a professional, camera enthusiast or an artist, our event promises to provide you with the opportunity to engage in a fun and inspiring atmosphere. Welcome to the Timeline. Unleash your inner storyteller and capture the stories throughyour lens. We invite you to explore the world around you, capture the moments that
+stand out, and share them with us. We will be on the look out for imaginative, unique photos that perfectly depict a scene or narrative. So, grab your camera, take a look around your town, and start snapping!",
+  "heading": "Photo Story Challenge",
+  "isOnline": true,	
+  "isTeam": true,
+  "worth": "5k",
+  "poc": {
+    "name" : "Manas Deorah",
+    "number":  9369338991
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FTimeline.jpg?alt=media&token=3187055e-6ce0-4518-99a1-37ae2c4a703d",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FTimeline.pdf?alt=media&token=1519e307-a89e-4b70-8a67-0d002da39fb2",
+ "register": "https://unstop.com/events/timeline-zeitgeist-indian-institute-of-technology-iit-ropar-798019"
+},
+{
+  "name": "The Retro Riot",
+  "fee": 75,
+  "day": 2,
+  "category": "Cultural",
+  "description": "Step into a world of pure comedy bliss at "The Retro Riot" , the ultimate destination for laughter seekers and comedy enthusiasts. Nestled in our celebratory cultural fest Zeitgeist, this cozy comedy Haven is where humour takes center stage and worries are left at the door.",
+  "heading" : "Stand up comedy",
+  "isOnline": false,	
+  "isTeam": false,
+  "worth": "18k",
+  "poc": {
+    "name" : "Shaubhik dutta",
+    "number":  8584826196
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FStandup%20Comedy.jpg?alt=media&token=4cced0ec-97f7-421c-a58f-4c3a61b08e8b",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FStandup%20Zeitgeist%202023.pdf?alt=media&token=b83a6bc1-acc4-4f49-a629-7cec556c0b85",
+ "register": "https://unstop.com/p/the-retro-riot-stand-up-comedy-competition-zeitgeist-x-iit-ropar-zeitgeist-indian-institute-of-technology-iit-ropar-797925?lb=lBZyqh8&utm_medium=Share&utm_source=shortUrl"
+},
+{
+  "name": "Nukkad Natak",
+  "fee": 50,
+  "day": 3,
+  "category": "Cultural",
+  "description": "It's time to channel your inner thespian, step into the spotlight, and captivate the audience with your storytelling prowess. Street theater, often referred to as "nukkad natak" or "thiruvizha natagam" is a vibrant and dynamic form of artistic expression that combines the power of drama with the intimacy of the streets. It is a medium that has the potential to address social issues, inspire change, and provoke thought, all while entertaining and engaging the audience.",
+  "heading" : "Street Play",
+  "isOnline": false,	
+  "isTeam": true,
+  "worth": "50k",
+  "poc": {
+    "name" : "Ananya bansal",
+    "number":  8146566339
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FNukkad%20Natak.jpg?alt=media&token=cc91cf0f-1d6d-4549-a78c-8fd6d3371313",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FStreet%20Play%20Rulebook%20Zeitgeist%202023.pdf?alt=media&token=f975aca2-34b3-4acb-9e9b-9dfdd31daa0e",
+ "register": "https://unstop.com/p/nukkad-natak-street-play-zeitgeist-x-iit-ropar-zeitgeist-indian-institute-of-technology-iit-ropar-797647?lb=lBZyqh8&utm_medium=Share&utm_source=shortUrl"
+},
+{
+  "name": "Improv-a-Palooza",
+  "fee": 50,
+  "day": 1,
+  "category": "Cultural",
+  "description": "Are you ready to laugh till your sides ache and your funny bone gets a workout? Welcome to the Improv-a-Palooza,an Improvisational Comedy Showdown!
+Strap in and get ready for a rollercoaster ride of wittiness, absurdity, and spontaneous hilarity! In this uproarious competition,the funniest minds will go head-to-head, as a team of 3 -
+6 players,in three gut-busting rounds.",
+  "heading" : "Improvisational Comedy",
+  "isOnline": false,	
+  "isTeam": true,
+  "worth": "20k",
+  "poc": {
+    "name" : "Ananya bansal",
+    "number":  8146566339
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FImprov.jpg?alt=media&token=70632fa0-c89c-4370-8b77-d2dbe88d01ea",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FImprov%20Zeitgeist%202023.pdf?alt=media&token=28057fa9-3118-4c08-b2ce-0677a1392f92",
+ "register": "https://unstop.com/o/X8laDhO?lb=lBZyqh8"
+},
+{
+  "name": "War of Bands",
+  "fee": 799 per team,
+  "day": 1,
+  "category": "Cultural",
+  "description": “War of Bands is a contest in which two or more bands compete for the title of "best band". In a Battle ofthe Bands, numerous bands—typically rock or metal bands, but occasionally musical performances from a variety of diverse genres—contest for the honour of being the "best band". People from different expertise in music come together creating a soulful performance.",
+  "heading" : "Rock-Band Event",
+  "isOnline": false,	
+  "isTeam": true,
+  "worth": "25k",
+  "poc": {
+    "name" : "Sailee",
+    "number":  9021468023
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FWar%20of%20bands.jpg?alt=media&token=b8ab5d49-1467-45f8-a65b-f14acb5966c4",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FWar%20of%20Bands%20Zeitgeist%202023.pdf?alt=media&token=86e12c06-dba1-45ee-b534-224bd98bee00",
+ "register": "https://unstop.com/events/war-of-bands-indian-institute-of-technology-iit-ropar-798044"
+},
+{
+  "name": "Rapchik",
+  "fee": 149,
+  "day": 3,
+  "category": "Cultural",
+  "description": “Rap battle is like boxing.Thinking on your feet is key. Rapchikk is a Rap battle competition where a rap is performed between two or more performers that in corporates boasts, insults and wordplay. Battle rap is often performed or free styled spontaneously in live battles.",
+  "heading" : "Rap Battle",
+  "isOnline": false,	
+  "isTeam": false,
+  "worth": "45k",
+  "poc": {
+    "name" : "Madhav",
+    "number":  8570089775
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FRapchik.jpg?alt=media&token=916bf13b-a2ac-418f-a0e4-70ef693d1605",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FRapchikk%20Zeitgeist%202023.pdf?alt=media&token=71432d64-64dc-4f8d-8fda-d3de7052ff1a",
+ "register": "https://unstop.com/events/rapchikk-zeitgeist-indian-institute-of-technology-iit-ropar-798039"
+},
+{
+  "name": "Beatdown Bash",
+  "fee": 50,
+  "day": 0,
+  "category": "Cultural",
+  "description": “Get ready to showcase your incredible dance talent in our exciting online dance competition! Whether you're a solo performer, part of a dynamic duet, or part of a mesmerizing group, this is your chance to shine. Show off your unique style, impressive choreography, and captivating stage presence as you compete for top honours. Don't miss out on this incredible opportunity to make your mark in the world of dance!",
+  "heading" : "Solo/Duet Dance",
+  "isOnline": true,	
+  "isTeam": true,
+  "worth": "3.5k",
+  "poc": {
+    "name" : "Sahil Mohal",
+    "number":  8847425704
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FBEAT%20DOWN%20BASH.jpg?alt=media&token=9baae1bc-4027-48dd-a04f-3c1bb44cf0b0",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FGroove-z%20Zeitgeist%202023.pdf?alt=media&token=57772f00-4a97-48a8-8583-e6c908733854",
+ "register": "https://unstop.com/o/FxpkaOl?lb=lBZyqh8"
+},
+{
+  "name": "Smack That",
+  "fee": 50,
+  "day": 3,
+  "category": "Cultural",
+  "description": “"If movements were sparks every dancer would desire to light up in flames." Some battles are notfought with lethal weapons.These battles involve lethal moves : POP-LOCK-BREAK. The tension on the dance floor sparks a clash between the groups.Showcase your moves and show them all who's the REAL BOSS.",
+  "heading" : "Street Dance Battle",
+  "isOnline": false,	
+  "isTeam": true,
+  "worth": "10k",
+  "poc": {
+    "name" : "Vedang Sakpal",
+    "number":  8806408703
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FSmack%20That.jpg?alt=media&token=b66270eb-7091-44af-a188-255d3a20a71e",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FSmack%20That%20Zeitgeist%202023.pdf?alt=media&token=c390db2a-a8f8-4d6c-a859-cc96891643d7",
+ "register": "https://unstop.com/o/tEy4rwa?lb=lBZyqh8"
+},
+{
+  "name": "Swaltza",
+  "fee": 100,
+  "day": 1,
+  "category": "Cultural",
+  "description": “If you have a flair for rhythm, an innate connection to music, and a desire to express yourself through dance,this is your chance to shine. Whether you're a solo performer ready to captivate the audience with your individual style, or a dynamic duo prepared to create magic through synchronized movements, we invite you to bring your energy, creativity, and unique flair to our stage. Join us at Zeitgeist, the Cultural Fest and be a part of an unforgettable dance extravaganza!",
+  "heading" : "Solo/Duet Dance",
+  "isOnline": false,	
+  "isTeam": true,
+  "worth": "17.5k",
+  "poc": {
+    "name" : "Vedang Sakpal",
+    "number":  8806408703
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FSwaltza.jpg?alt=media&token=023214da-f8b2-4bc4-9a38-4cb7398c0a2e",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FSwaltza%20Zeitgeist%202023.pdf?alt=media&token=1f37e29a-db87-4585-98f9-0f4aa2c60a0d",
+ "register": "https://unstop.com/o/9MudUOJ?lb=lBZyqh8"
+},
+{
+  "name": "Canvas Convergence",
+  "fee": 50,
+  "day": 3,
+  "category": "Cultural",
+  "description": “Create a painting that captures the essence of cultural art by incorporating vibrant colors, intricate patterns, and symbolic elements that represent a specific culture or tradition. Depict figures in traditional attire engaged in activities that showcase the culture's values, celebrations, or rituals",
+  "heading" : "Painting Competition",
+  "isOnline": false,	
+  "isTeam": false,
+  "worth": "3.5k",
+  "poc": {
+    "name" : "Hemlata Gautam",
+    "number":  8630720244
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FSmack%20That%20Zeitgeist%202023.pdf?alt=media&token=c390db2a-a8f8-4d6c-a859-cc96891643d7",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2Fcanvas%20convergence.pdf?alt=media&token=8e53937f-8904-4a9f-931a-e6468ed0d661",
+ "register": "https://unstop.com/o/QmUI97M?lb=lBZyqh8&utm_medium=Share&utm_source=Mail"
+},
+{
+  "name": "Doodle by Dots",
+  "fee": 100,
+  "day": 2,
+  "category": "Cultural",
+  "description": "Welcome to the world of Doodle Art with Stippling! This unique artform combines the freedom of doodling with the meticulous technique of stippling, creating mesmerizing artworks one tiny dot at a time. In this event, artists of all levels are invited to embrace their imagination, patience, and attention to detail to craft intricate and expressive pieces that will captivate the eye and spark the imagination",
+  "heading" : "Stippling Doodle Art",
+  "isOnline": false,	
+  "isTeam": false,
+  "worth": "3.5k",
+  "poc": {
+    "name" : "Hemang",
+    "number":  6350249534
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FDoodle%20by%20Dots.jpg?alt=media&token=afa632c4-b572-4025-90ef-75bfbc401335",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2Fdoodle%20by%20dots.pdf?alt=media&token=c1b2f97b-ea50-4e23-a338-2a850e58f9b6",
+ "register": "https://unstop.com/o/5DfXOpi?lb=lBZyqh8"
+},
+{
+  "name": "Kavyanjali",
+  "fee": 100,
+  "day": 2,
+  "category": "Literary",
+  "description": “Discover the magic of words at our event poetry slam! Watch as poets bare their souls,igniting emotions with powerful verses.If you think your words can really speak the most deepens thoughts.Then we have got the poetry slam competition for you. Come speak and show your power of your words",
+  "heading" : "Slam Poetry",
+  "isOnline": false,	
+  "isTeam": false,
+  "worth": "3k",
+  "poc": {
+    "name" : "RAJ SHRIVASTAV",
+    "number":  8683905746
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2Fkavyanjali.png?alt=media&token=d4d7a005-afe7-4f84-8cab-f0f1d4a372d1",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FKavyanjaliRulebook%20Zeitgeist%202023.pdf?alt=media&token=314b052b-95b7-48df-9edd-dbbd658c277c",
+ "register": "https://unstop.com/o/nmkpfso?lb=lBZyqh8"
+},
+{
+  "name": "Porse Palooza",
+  "fee": 100,
+  "day": 0,
+  "category": "Literary",
+  "description": “Unleash your creativity and pen down enthralling stories to compete with talented writers from all around. Submit your entries written on the provided theme for a chance to win amazing prizes and showcase your writing Skills.",
+  "heading" : "Writing competition",
+  "isOnline": true,	
+  "isTeam": false,
+  "worth": "3k",
+  "poc": {
+    "name" : "PRERNA SINGH",
+    "number":  9389605622
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FProse%20Palooza.jpg?alt=media&token=a067a099-1f03-4903-ade8-babbd2f17973",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FProse%20Palooza%20Rulebook%20Zeitgeist%202023.pdf?alt=media&token=316383ae-36bd-4562-a24e-de14cdb8f76f",
+ "register": "https://unstop.com/o/wYGW46C?lb=lBZyqh8"
+},
+{
+  "name": "Foodie Frenzy",
+  "fee": 80,
+  "day": 2,
+  "category": "Cultural",
+  "description": “This is a food-eating contest in which participants will compete against each other in two rounds",
+  "heading" : "Food Eating contest",
+  "isOnline": false,	
+  "isTeam": false,
+  "worth": "5k",
+  "poc": {
+    "name" : "Anusha Khare",
+    "number":  7224922434
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FFoodie%20Frenzy.jpg?alt=media&token=42475237-dc2f-4f80-bd45-920b55351c67",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FFooDie%20Frenzy%20Zeitgeist%202023.pdf?alt=media&token=ab09698c-d56c-4105-bd83-3f45f6beb998",
+ "register": "https://unstop.com/o/ifZCK19?lb=lBZyqh8"
+},
+{
+  "name": "Gourmet",
+  "fee": 150,
+  "day": 3,
+  "category": "Cultural",
+  "description": “Welcome to the ‘Gourmet’, a celebration of the culinary versatility and nutritional benefits of these ancient grains! Millets, have been a staple food source for centuries, cherished for their resilience, sustainability, and health-promoting properties. In today's event, we bring together talented chefs, home cooks, and food enthusiasts to showcase their creativity and expertise in preparing delicious dishes using millets.",
+  "heading" : "Cooking contest",
+  "isOnline": false,	
+  "isTeam": true,
+  "worth": "30k",
+  "poc": {
+    "name" : "Anusha Khare",
+    "number":  7224922434
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FGourmet.jpg?alt=media&token=3e8c9b9f-e8ac-4f79-b70d-458d224050d4",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FGourmet%20Zeitgeist%202023.pdf?alt=media&token=d37d2d46-8763-4ce5-af21-e86a5f311033",
+ "register": "https://unstop.com/o/ZNaVsXP?lb=lBZyqh8"
+},
+{
+  "name": "The Inferno challenge",
+  "fee": 60,
+  "day": 1,
+  "category": "Cultural",
+  "description": “Participants must consume very spicy dishes at each round of the challenge. Challenge consists of two rounds with 1st round being qualification round and second round as final judging round. Failure to finish a dish or take a break before the next round disqualifies a participant. Winner takes all glory and the prizepool.",
+  "heading" : "Spice eating contest",
+  "isOnline": false,	
+  "isTeam": false,
+  "worth": "5k",
+  "poc": {
+    "name" : "Anusha Khare",
+    "number":  7224922434
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FThe%20Inferno%20challange.jpg?alt=media&token=79a0c446-b0f7-4ade-9d8c-64658c970ceb",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FInferno%20Challenge%20Zeitgeist%202023.pdf?alt=media&token=b916326b-8d31-4a37-be2d-a512d79b723e",
+ "register": "https://unstop.com/o/7xbdvIE?lb=lBZyqh8"
+},
+{
+  "name": "The Reel Rush",
+  "fee": 60,
+  "day": 0,
+  "category": "Literary",
+  "description": “Reel rush is an online reel-making competition that offers you to showcase your Instagram shots-making and film-making skills. Bring out the creativity inside you and make an outstanding Reel for the given themes.",
+  "heading" : "Reel making contest",
+  "isOnline": true,	
+  "isTeam": false,
+  "worth": "12k",
+  "poc": {
+    "name" : "Krishna",
+    "number":  9680726995
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FReel%20Rush.jpg?alt=media&token=90bf932e-a6c2-4586-b39a-000fd44a6a39",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FReel%20Rush%20Rulebook%20Zeitgeist%202023%20(1).pdf?alt=media&token=fdc522fe-31c4-4886-bb53-9ed5a57f13f1",
+"register": "https://unstop.com/o/R5AYkol?lb=lBZyqh8"
+},
+{
+  "name": "Visual Vortex",
+  "fee": 60,
+  "day": 0,
+  "category": "Literary",
+  "description": “In the Visual Vortex Video Editing Competition, participants will have the opportunity to showcase their video editing skills. All participants will be provided with the same stock video on the day of the event. The task is to create a compelling video lasting between 90 to 180 seconds . However, participants are allowed to use their preferred audio to
+accompany the visuals.",
+  "heading" : "Video editing contest",
+  "isOnline": true,	
+  "isTeam": false,
+  "worth": "12k",
+  "poc": {
+    "name" : "Prerna",
+    "number":  9501264149
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FVintage%20Vortex.jpg?alt=media&token=c1f9627b-4f6f-48f3-9f95-fc5561487dc9",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FVisual%20vortex.pdf?alt=media&token=484d544e-dcad-4488-868c-fa26154d2ecd",
+ "register": "https://unstop.com/o/9hY3l6F?lb=lBZyqh8"
+},
+{
+  "name": "CineMela",
+  "fee": 49,
+  "day": 1,
+  "category": "Literary",
+  "description": “ Join us for this fun and festive event of MELA quiz, where you will be quizzed on various aspects of pop culture, from Bollywood to Hollywood, from rock to rap, from drama to comedy. This is a chance to show off your knowledge and appreciation of music, entertainment and art, and to compete with other fans and enthusiasts from different places. So, don’t miss this opportunity to have a blast with CineMELA.",
+  "heading" : "Movie Quiz Contest",
+  "isOnline": false,	
+  "isTeam": true,
+  "worth": "20k",
+  "poc": {
+    "name" : "Aryan Singh",
+    "number":  9053508577
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FCinemela.jpg?alt=media&token=4fcd71fc-0f0c-4b69-8c5e-3b2b5191eb69",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FCineMELA%20Rulebook%20Zeitgeist%202023.pdf?alt=media&token=f8c689a0-510d-45d2-b886-204b4ae6e462",
+ "register": "https://unstop.com/o/F19gfym?lb=lBZyqh8"
+},
+{
+  "name": "General Quiz",
+  "fee": 49,
+  "day": 2,
+  "category": "Literary",
+  "description": “Join us for this exciting event of general quiz, where you will face some tough, tricky and tantalizing questions that will make you think hard and fast. This is not just a quiz, but a battle of brains, where only the best and the brightest will emerge victorious. So, come and show us your passion for learning, your curiosity for facts and your skill for deduction in this ultimate contest of general quiz!",
+  "heading" : "Quiz Contest",
+  "isOnline": false,	
+  "isTeam": true,
+  "worth": "15k",
+  "poc": {
+    "name" : "Krushna Goel",
+    "number":  8427384173
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2Fgen%20quiz.jpg?alt=media&token=89b60b8a-48f2-4b21-bfbb-191557acfea4",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FGeneral%20Quiz%20Rulebook%20Zeitgeist%202023.pdf?alt=media&token=4cb0e4b7-8193-46ce-836f-e6dd9a2c4ccc",
+ "register": "https://unstop.com/o/F19gfym?lb=lBZyqh8"
+},
+{
+  "name": "British Parliamentry Debate",
+  "fee": 447,
+  "day": 2,
+  "category": "Literary",
+  "description": “British Parliamentary Debate, an electrifying clash of intellects and rhetoric, unfolds in a thrilling whirlwind of words and wits. In a grand arena where four teams, armed with passion and persuasion, engage in a battle of eloquence that echoes with the spirit of democracy.",
+  "heading" : "Quiz Contest",
+  "isOnline": false,	
+  "isTeam": true,
+  "worth": "10k",
+  "poc": {
+    "name" : "ISHAAN",
+    "number":  8368129851
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FBPD.jpg?alt=media&token=762fc7d2-6a8f-4dad-92a0-1f6b07ba3ddf",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FBPD%20Rulebook%20Zeitgeist%20'23.pdf?alt=media&token=c0fd4c49-febd-4c20-b40a-1c179233472a",
+ "register": "https://unstop.com/events/british-parliamentary-debate-zeitgeist-indian-institute-of-technology-iit-ropar-798048"
+},
+{
+  "name": "Vintage Virtuso",
+  "fee": 0,
+  "day": 3,
+  "category": "Literary",
+  "description": “The Mimicry Extravaganza is a competition aimed at showcasing participants' abilities to mimic voices, acts, or any other forms of mimicry.",
+  "heading" : "Quiz Contest",
+  "isOnline": false,	
+  "isTeam": true,
+  "worth": "10k",
+  "poc": {
+    "name" : "ISHAAN",
+    "number":  8368129851
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FVintage%20Virtuous.jpg?alt=media&token=1c0975de-2e99-407c-8200-834ea0ef7f17",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FVintage%20Virtuso%20Rulebook%20Zeitgeist%202023.pdf?alt=media&token=5ae0ea55-f36c-4fe7-aaae-fa788d79b8c1",
+ "register": "https://unstop.com/o/MJmPj0l?lb=lBZyqh8"
+},
+{
+  "name": "Sketch Hunt",
+  "fee": 50,
+  "day": 1,
+  "category": "Cultural",
+  "description": “Get ready to put your artistic talents to the test at our exhilarating "Live Sketching on Campus" event! Whether you're an experienced artist or just starting to explore your creative side, this event promises an enjoyable and inspiring experience for everyone. ",
+  "heading" : "Sketching Contest",
+  "isOnline": false,	
+  "isTeam": true,
+  "worth": "3.5k",
+  "poc": {
+    "name" : "Smriti",
+    "number":  9118092390
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FSKETCH%20HUNT.jpg?alt=media&token=4d3e5484-610e-49e6-8c60-b993d417336b",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FCopy%20of%20Rulebook%20Zeitgeist%202023.pdf?alt=media&token=cb97bc9f-498d-4f60-92fa-746350b05693",
+ "register": "https://unstop.com/o/zcWoJq3?lb=lBZyqh8"
+},
+{
+  "name": "MUN Commitee",
+  "fee": 350,
+  "day": 1,
+  "category": "Cultural",
+  "description": “Brief Description: Join our thrilling Model UN conference hosted by Zeitgeist, IIT Ropar’s cult fest. Represent your country, tackle the complex topic of ‘Migration’: Questioning Identity and Norms of Inclusion and complete for exciting prizes. Sharpen your diplomacy and research skills, and make a difference in the world. Don’t miss this exhilarating
+opportunity!",
+  "heading": "MUN"
+  "isOnline": false,	
+  "isTeam": true,
+  "worth": "25k",
+  "poc": {
+    "name" : "ARYAN DAGA",
+    "number":  8000916630
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FMUN2.jpg?alt=media&token=43f7e218-29d0-43e4-bce9-a8f7ebeeffba",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2Fmun.pdf?alt=media&token=e995921c-d8fe-4b9a-8de3-00adfd22817f ",
+ "register": "https://unstop.com/events/mun-zeitgeist-indian-institute-of-technology-iit-ropar-798052"
+},
+{
+  "name": "Pic of the Day",
+  "fee": 49,
+  "day": 0,
+  "category": "Cultural",
+  "description": “The task is to capture the vibrant and lively culture of Zeitgeist with your camera and send us the soft copies via mail.The event will run for 3 days during the fest. Each day,the best two photos will be selected as the ‘PIC OF THE DAY’ and winners will be eligible for cool prizes",
+  "heading" : "Solo Photography Contest"
+  "isOnline": true,	
+  "isTeam": false,
+  "worth": "1k",
+  "poc": {
+    "name" : "Swapnil Pandey",
+    "number":  6307099577
+  },
+  "poster": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Posters%2FMUN2.jpg?alt=media&token=43f7e218-29d0-43e4-bce9-a8f7ebeeffba",
+  "rulebook": "https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FMAIN%2FEvent%20Rulebooks%2FPic%20of%20the%20Day.pdf?alt=media&token=616b169c-2799-4973-bc63-74f707a60470",
+ "register": "https://unstop.com/events/pic-of-the-day-zeitgeist-indian-institute-of-technology-iit-ropar-798009"
+}
+]

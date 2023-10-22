@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const firebase = require("../firebase")
+const firebase = require("../firebase");
 const {
   collection,
   getDoc,
@@ -11,10 +11,11 @@ const {
 //Post an event
 router.post("/events", async (req, res) => {
   try {
-    const event = req.body;
-    await setDoc(doc(firebase.db, "events", req.body.name), event);
-    const p = await getDoc(doc(firebase.db, "events", req.body.name));
-    res.status(200).json(p.data());
+    const eventList = req.body;
+    eventList.forEach(async (event) => {
+      await setDoc(doc(firebase.db, "events", event.name), event);
+    })
+    res.status(200).json({"success": true});
   } catch (e) {
     res.status(500).json(e);
   }
@@ -44,7 +45,6 @@ router.get("/allEvents", async (req, res) => {
     });
     res.status(200).json(arr);
   } catch (err) {
-    console.log(err);
     res.status(500).json(err);
   }
 });

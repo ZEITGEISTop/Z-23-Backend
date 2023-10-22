@@ -1,10 +1,13 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const allowedOrigins = ["https://zeitgeistrpr.com"];
+const allowedOrigins = [
+  "https://zeitgeistrpr.com",
+];
 const authRoutes = require("./routes/auth");
 const caRoutes = require("./routes/ca");
-const mainRoutes = require("./routes/main");
+const eventsRoutes = require("./routes/events");
+const userRoutes = require("./routes/user");
 
 app.use(
   cors({
@@ -24,7 +27,8 @@ app.use(express.json());
 
 app.use(caRoutes);
 app.use(authRoutes);
-app.use(mainRoutes);
+app.use(eventsRoutes);
+app.use(userRoutes);
 
 app.listen(5000, () => {
   console.log("Running on " + 5000);
