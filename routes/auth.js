@@ -36,8 +36,7 @@ router.post("/login", async (req, res) => {
       if (error.code === "auth/invalid-login-credentials") {
         res.status(403).json("Invalid email or password");
       } else {
-        console.error(error);
-        res.status(500).json("Internal server error");
+        res.status(500).json(error.code);
       }
     });
 });

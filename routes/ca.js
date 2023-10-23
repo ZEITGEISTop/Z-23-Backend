@@ -14,16 +14,8 @@ const {
 router.post("/ca-data", async (req, res) => {
   try {
     const user = req.body;
-    console.log(user);
     const salt = await bcrypt.genSalt(5);
-    console.log(salt);
     const referral = await bcrypt.hash(user.email, salt);
-    console.log(
-      referral
-        .replace(/[^a-zA-Z0-9]/g, "")
-        .substr(0, 8)
-        .toUpperCase()
-    );
     await setDoc(doc(firebase.db, "users", req.body.email), {
       ...user,
       referral: referral
