@@ -67,15 +67,21 @@ router.put("/ca-data", async (req, res) => {
   try {
     const q = await getDoc(doc(firebase.db, "users", req.body.email));
     if ("invites" in req.body) {
+      const point = q.data().points;
+      let histor = q.data().history;
+      histor.push(req.body.points);
       await updateDoc(doc(firebase.db, "users", req.body.email), {
         invites: q.data().invites + req.body.invites,
-        points: q.data().points + req.body.points,
-        history: q.data().history.push(req.body.points),
+        points: point + req.body.points,
+        history: histor,
       });
     } else {
+      const point=q.data().points;
+      let histor=q.data().history;
+      histor.push(req.body.points);
       await updateDoc(doc(firebase.db, "users", req.body.email), {
-        points: q.data().points + req.body.points,
-        history: q.data().history.push(req.body.points),
+        points: point + req.body.points,
+        history: histor,
       });
     }
     const l = await getDoc(doc(firebase.db, "users", req.body.email));
