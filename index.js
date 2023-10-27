@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const allowedOrigins = ["https://zeitgeistrpr.com"];
+const allowedOrigins = ["https://zeitgeistrpr.com", "http://localhost:3000"];
 const authRoutes = require("./routes/auth");
 const caRoutes = require("./routes/ca");
 const eventsRoutes = require("./routes/events");
