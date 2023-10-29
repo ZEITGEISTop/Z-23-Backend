@@ -1,12 +1,13 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const allowedOrigins = ["https://zeitgeistrpr.com"];
+const allowedOrigins = ["https://zeitgeistrpr.com", "http://localhost:3000", "172.23.1.168:3000"];
 const authRoutes = require("./routes/auth");
 const caRoutes = require("./routes/ca");
 const eventsRoutes = require("./routes/events");
 const userRoutes = require("./routes/user");
-const announcementRoutes = require("./routes/announcements")
+const announcementRoutes = require("./routes/announcements");
+const highlightsRoutes = require("./routes/highlights");
 
 app.use(
   cors({
@@ -29,6 +30,7 @@ app.use(authRoutes);
 app.use(eventsRoutes);
 app.use(userRoutes);
 app.use(announcementRoutes);
+app.use(highlightsRoutes);
 
 app.listen(5000, () => {
   console.log("Running on " + 5000);

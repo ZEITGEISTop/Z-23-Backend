@@ -39,7 +39,7 @@ router.get("/ca-user", async (req, res) => {
     } else {
       res.status(403).json({ email: req.query.email });
     }
-  } catch {
+  } catch{
     res.status(500).json({error: "Internal Server Error"});
   }
 });
