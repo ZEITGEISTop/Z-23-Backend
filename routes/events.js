@@ -14,8 +14,8 @@ router.post("/events", async (req, res) => {
     const eventList = req.body;
     eventList.forEach(async (event) => {
       await setDoc(doc(firebase.db, "events", event.name), event);
-    })
-    res.status(200).json({"success": true});
+    });
+    res.status(200).json({ success: true });
   } catch (e) {
     res.status(500).json(e);
   }
