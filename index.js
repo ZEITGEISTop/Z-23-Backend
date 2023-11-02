@@ -10,6 +10,7 @@ const announcementRoutes = require("./routes/announcements");
 const highlightsRoutes = require("./routes/highlights");
 const scheduleRoutes = require("./routes/schedule");
 const teamRoutes = require("./routes/team");
+const sponsorRoutes = require("./routes/sponsors");
 
 app.use(
   cors({
@@ -35,6 +36,7 @@ app.use(announcementRoutes);
 app.use(highlightsRoutes);
 app.use(scheduleRoutes);
 app.use(teamRoutes);
+app.use(sponsorRoutes);
 
 app.listen(5000, () => {
   console.log("Running on " + 5000);
